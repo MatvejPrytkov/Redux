@@ -1,0 +1,26 @@
+.Basket-item{
+    display: flex
+}
+.Basket-item div{
+    padding: 5px 10px;
+    
+}
+
+.Basket-item div:first-child{
+   width: 30px;
+}
+
+.Basket-item div:nth-child(2){
+    width: 200px;
+ }
+ .Basket-item div:nth-child(3){
+    width: 50px;
+ }
+ .Basket-item div:nth-child(5){
+    width: 50px;
+    text-align: center;
+ }
+ .Basket-item div:nth-child(7){
+    width: 50px;
+    font-weight: bold;
+ }
